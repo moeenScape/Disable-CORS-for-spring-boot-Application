@@ -1,5 +1,9 @@
 # Disable CORS-for-spring-boot
 
+Error-Access to XMLHttpRequest at 'http://localhost:8080//api/v1/home/test/save' from origin 'http://localhost:4200' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+
+Solve: Craete a class name CorsConfig at you root and paste this code
+
 ```Java
 @Configuration
 public class CorsConfig {
