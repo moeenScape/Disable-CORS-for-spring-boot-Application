@@ -1,6 +1,6 @@
 # Disable CORS-for-spring-boot
 
-```
+```Java
 @Configuration
 public class CorsConfig {
     @Bean
