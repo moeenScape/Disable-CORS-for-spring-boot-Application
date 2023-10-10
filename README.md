@@ -22,4 +22,4 @@ public class CorsConfig {
 
 ```
 ### Note : This is a temprary hack to handle CORS.There are custome configuration for CORS.Study and find your proper Config.
-Thank YOu
+Thank You
